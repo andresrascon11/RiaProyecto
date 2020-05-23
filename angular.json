@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "aprendidoClase"
+    }
+  },
+  "defaultProject": "aprendidoClase",
+  "cli": {
+    "analytics": false
+  }
 }

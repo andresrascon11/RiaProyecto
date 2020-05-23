@@ -1,0 +1,14 @@
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>color</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let mesa of mesa">
+            <td>{{mesa.id}}</td>
+            <td>{{mesa.nombre}}</td>
+            <td>{{mesa.color}}</td>
+        </tr>
+    </tbody>
+</table>
